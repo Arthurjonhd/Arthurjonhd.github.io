@@ -1,0 +1,6 @@
+# Keep line endings LF everywhere: the header/footer blocks must stay
+# byte-identical across pages on every machine that checks the repo out.
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.ico binary
