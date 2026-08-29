@@ -161,9 +161,10 @@ clearly, and end service pages with the navy `.cta-band`.
 - Without JS the form still posts natively (the script sets `novalidate` itself
   so native validation stays available when it is not running).
 - `botcheck` is the honeypot; a checked box is dropped silently.
-- **Manual step:** the `access_key` hidden input holds
-  `WEB3FORMS_ACCESS_KEY_HERE`. Until a real key from web3forms.com is pasted in,
-  the form does not deliver. The direct `mailto:` link always works.
+- The `access_key` hidden input carries the Web3Forms key that delivers to
+  `dlasholdingscorp@gmail.com`. It is public by design — it authorises delivery
+  to that inbox and nothing else. Reissue it at web3forms.com if the destination
+  address changes. The direct `mailto:` link works regardless.
 
 ## Social share image
 
